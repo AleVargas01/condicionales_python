@@ -49,3 +49,12 @@ y almacenar el resultado en una variable llamada
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+temperatura_1 = float(input('* Ingrese la primera temperatura: \n'))
+temperatura_2 = float(input('* Ingrese la segunda temperatura: \n'))
+temperatura_3 = float(input('* Ingrese la tercera temperatura: \n'))
+
+temperatura_total = temperatura_1 + temperatura_2 + temperatura_3
+temperatura_promedio = temperatura_total / 3
+
+print(f'****** El promedio de las temperaturas ingresadas es: ***** \n {temperatura_promedio:.2f}')
