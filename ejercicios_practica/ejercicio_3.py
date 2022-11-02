@@ -11,18 +11,34 @@
 
 # Condicionales anidados elif
 
-# Objetico
+# Objetivo
 # Verificar la calificación de un estudiante según su
 # puntaje en un examen
 puntaje = 70
 
 # Alumno:
-# Deberá crear una serie de considiconales
+# Deberá crear una serie de condicionales
 # con if y elif de forma tal de cargar en
 # la variable nota la nota del alumno según
 # las siguientes condiciones:
-
+#<>
 nota = ""
+
+if puntaje >= 90:
+    nota = 'A'
+
+elif puntaje >= 80:
+    nota = 'B'
+
+elif puntaje >= 70:
+    nota = 'C'
+
+elif puntaje >=60:
+    nota = 'D'
+
+elif puntaje < 60:
+    nota = 'F'
+
 
 # Si el puntaje es mayor igual a 90 --> nota = "A"
 # Si el puntaje es mayor igual a 80 --> nota = "B"
@@ -35,3 +51,4 @@ nota = ""
 # Puede consultar el ejemplo de clase 2 como referencia
 
 # Imprimir en pantalla la variable nota
+print(f'La nota es: {nota}')
